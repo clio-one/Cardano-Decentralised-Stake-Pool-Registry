@@ -52,7 +52,7 @@ This is pretty simple and straightforward. Show all pools having a valid chain r
 
 This is completely open and uncensored. Pools post any link to a JSON file, wallets try to download and parse it (and blacklist the pool if the file is too big or unparsable) and then show the metadata from that file. . Pools must ensure they publish legal content - for whatever country. Users accept the risk of potentially seeing some “risky” information.Users choosing this option will see some automatically calculated performance and desirability metrics besides the metadata declared by the pool. End-Users must verify and evaluate pools themselves. Metadata retrieval and refresh for each node’s URL might be slow. 
 
-![pool-registry_concept_RAW](C:\Users\MarkusGuflerLimitis\Documents\git\Cardano-Decentralised-Stake-Pool-Registry\images\pool-registry_concept_RAW.png)
+![pool-registry_concept_RAW](images/pool-registry_concept_RAW.png)
 
 ### Curated Metadata
 
@@ -60,7 +60,7 @@ This is a service, provided by at least one and possibly multiple curators actin
 
 The benefit for users is to have additional filters and categories. For example, pools consciously causing instabilities or ineffective protocol execution in favour of personal profits. The curators can also assign badges/tags, that can't be determined in a mathematical/automated way. For example support of social projects, offer useful free services for the community and the ecosystem. But also things like: announced trusted peer services are effectively and permanently up & running.
 
-![pool-registry_concept_curated](C:\Users\MarkusGuflerLimitis\Documents\git\Cardano-Decentralised-Stake-Pool-Registry\images\pool-registry_concept_curated.png)
+![pool-registry_concept_curated](images/pool-registry_concept_curated.png)
 
 All metadata additions are linked to the unique, chain originating pool ID to avoid deliberately falsified duplicates.
 
