@@ -52,15 +52,11 @@ This is pretty simple and straightforward. Show all pools having a valid chain r
 
 This is completely open and uncensored. Pools post any link to a JSON file, wallets try to download and parse it (and blacklist the pool if the file is too big or unparsable) and then show the metadata from that file. . Pools must ensure they publish legal content - for whatever country. Users accept the risk of potentially seeing some “risky” information.Users choosing this option will see some automatically calculated performance and desirability metrics besides the metadata declared by the pool. End-Users must verify and evaluate pools themselves. Metadata retrieval and refresh for each node’s URL might be slow. 
 
-![pool-registry_concept_RAW](images/pool-registry_concept_RAW.png)
-
 ### Curated Metadata
 
 This is a service, provided by at least one and possibly multiple curators acting as intermediate proxy services. Having multiple such providers limit centralisation effects. 
 
 The benefit for users is to have additional filters and categories. For example, pools consciously causing instabilities or ineffective protocol execution in favour of personal profits. The curators can also assign badges/tags, that can't be determined in a mathematical/automated way. For example support of social projects, offer useful free services for the community and the ecosystem. But also things like: announced trusted peer services are effectively and permanently up & running.
-
-![pool-registry_concept_curated](images/pool-registry_concept_curated.png)
 
 All metadata additions are linked to the unique, chain originating pool ID to avoid deliberately falsified duplicates.
 
@@ -71,6 +67,8 @@ This is where consequences come into play: No one is stopping anyone from making
 This Curator concept - in an extreme form - would even allow having completely separated pool-lists for different target groups: one attracting convinced freethinkers, gamblers, etc... and another one for business or private people looking for a more reliable and protected environment.
 
 Very probably most curators will try to list all pools and offer different target categories. Might some curator become lazy or offer high-quality curation only for a limited (reviewed) set of pools. 
+
+https://www.lucidchart.com/documents/view/411e8587-47c1-410c-8252-03c42e60bf2b/0_1
 
 # The general concept
 
