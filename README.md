@@ -1,5 +1,5 @@
 # Cardano-Decentralised-Stake-Pool-Registry
-Organize the information flow of the metadata of the pool (name, ticker, description, homepage, ...) from the chain to the end-user applications
+Organize the the pool's metadata information flow (name, ticker, description, homepage, ...) from the chain to the end-user applications
 
 This document is based on 
 
@@ -46,9 +46,11 @@ Wallet Delegation centres should give the choice to end users if they want
 
 ### RAW Metadata
 
-This is pretty simple and straightforward. Show all pools having a valid chain registration, with their self-declared and published. 
+This is pretty simple and straightforward. Show all pools having a valid chain registration, with their self-declared and published metadata. 
 
-[^Must pools provide a verified (working) abuse contact address?]: 
+[^Must pools provide a verifyable abuse contact address?]: 
+
+[^Ticker on chain or as metadata?]: 
 
 This is completely open and uncensored. Pools post any link to a JSON file, wallets try to download and parse it (and blacklist the pool if the file is too big or unparsable) and then show the metadata from that file. . Pools must ensure they publish legal content - for whatever country. Users accept the risk of potentially seeing some “risky” information.Users choosing this option will see some automatically calculated performance and desirability metrics besides the metadata declared by the pool. End-Users must verify and evaluate pools themselves. Metadata retrieval and refresh for each node’s URL might be slow. 
 
